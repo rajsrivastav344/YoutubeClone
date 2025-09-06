@@ -1,0 +1,90 @@
+
+
+.search-bar {
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin-left: 6rem;
+}
+.form-control {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.btn-search {
+  background-color: white;
+  border: none;
+  border-left: 1px solid #ccc;
+}
+.mic {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 40px;
+  border: none;
+  background-color: #eae7e5;
+}
+.profile {
+  margin-left: 7rem;
+}
+.profile-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #5a3c32;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.maincard{
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+.maincard iframe{
+    width: 375px;
+    height: 250px;
+    border-radius: 20px;
+}
+.card{
+    margin: 5px;
+    padding-top: 10px;
+}
+.card-body{
+    height: 120px;
+}
+.lefticon ul{
+  /* margin: 10px; */
+  text-decoration-style: none;
+}
+.lefticon i{
+    font-size: 20px;
+    margin-right: 30px;
+}
+.u1{
+    list-style: none;
+    gap: 2px;
+}
+.sidebar {
+  width: 250px;
+  padding: 15px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+}
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar .active {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #1976d2;
+  border-radius: 50%;
+  display: inline-block;
+}
+.lefticon i{
+  padding-right: 20px;
+}

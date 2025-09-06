@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Youtube demo</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- header start -->
+        <div class="row">
+            <div class="col-sm-2 text-center my-auto">
+                <i class="fa-solid fa-grip-lines"></i> &nbsp; &nbsp;
+                <img src="https://freelogopng.com/images/all_img/1656501255youtube-logo-png.png" class="w-50" alt="" />
+            </div>
+            <div class="col-sm-7 d-flex mt-2">
+                <div class="input-group search-bar w-75 h-100">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-search" type="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <button class="rounded-circle mic ms-3">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+            <div class="col-sm-3 text-end mt-2">
+                <div class="d-flex align-items-center gap-3 profile">
+                    <button class="btn btn-light rounded-pill px-3">
+                        <i class="fa-solid fa-plus"></i> Create
+                    </button>
+                    <i class="fa-solid fa-bell"></i>
+                    <button class="profile-btn">Rs</button>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+        <!-- main section start-->
+        <div class="row mt-4">
+            <div class="col-sm-2 lefticon justify-content-center">
+               <div class="col-sm-2 lefticon">
+                <div class="sidebar">
+                    <!-- Top Menu -->
+                    <div class="mb-3">
+                        <div class="d-flex align-items-center p-2 active">
+                            <i class="fa-solid fa-house"></i><a href="#">Home</a>
+                        </div>
+                        <div class="d-flex align-items-center p-2">
+                            <i class="fa-solid fa-bolt"></i><a href="#">Shorts</a>
+                        </div>
+                        <div class="d-flex align-items-center p-2">
+                            <i class="fa-brands fa-square-youtube"></i><a href="#">Subscriptions</a>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <!-- You Section -->
+                    <div class="mb-3 lefticon">
+                        <div class="fw-bold mb-2">You</div>
+                        <div class="d-flex align-items-center p-2"><i class="fa-solid fa-clock-rotate-left"></i><a
+                                href="#">History</a></div>
+                        <div class="d-flex align-items-center p-2"><i class="fa-solid fa-list"></i><a
+                                href="#">Playlists</a></div>
+                        <div class="d-flex align-items-center p-2"><i class="fa-solid fa-circle-play"></i><a
+                                href="#">Your
+                                videos</a></div>
+                        <div class="d-flex align-items-center p-2"><i class="fa-solid fa-graduation-cap"></i><a
+                                href="#">Your courses</a></div>
+                        <div class="d-flex align-items-center p-2"><i class="fa-solid fa-clock"></i><a href="#">Watch
+                                later</a></div>
+                        <div class="d-flex align-items-center p-2"><i class="fa-solid fa-thumbs-up"></i></i><a
+                                href="#">Liked videos</a></div>
+                    </div>
+
+                    <hr>
+                    <!-- Subscriptions -->
+                    <div>
+                        <div class="fw-bold mb-2">Subscriptions</div>
+                        <div class="d-flex justify-content-between align-items-center p-2"><a href="#">Badge 99</a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center p-2"><a href="#">Gate
+                                Smashers</a></div>
+                        <div class="d-flex justify-content-between align-items-center p-2"><a href="#">WsCube
+                                Tech</a></div>
+                        <div class="d-flex justify-content-between align-items-center p-2"><a href="#">College
+                                Wallah</a></div>
+                        <div class="d-flex justify-content-between align-items-center p-2"><a href="#">Thapa
+                                Technical</a></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-10 d-flex">
+                <div class="row maincard">
+                      <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/HscrSwilshM?si=Tpt9VlmX8T623-jT"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/Vw6utYElVFg?si=C7P7H3uehznoTaw1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="375" height="250"
+                            src="https://www.youtube.com/embed/GG2q368Mr9g?si=IMr15pJs38FPIW5N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/fkhdRKmc9-I?si=9V9iaL4h34TITBYP"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                      <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/HscrSwilshM?si=Tpt9VlmX8T623-jT"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/Vw6utYElVFg?si=C7P7H3uehznoTaw1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="375" height="250"
+                            src="https://www.youtube.com/embed/GG2q368Mr9g?si=IMr15pJs38FPIW5N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/fkhdRKmc9-I?si=9V9iaL4h34TITBYP"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="375" height="250"
+                            src="https://youtube.com/embed/jCVjudmnByk?si=DAwpihYIuLX1DiGm"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h6>Mix - 'Mere Nishan' Full Audio Song by Darshan Raval</h6>
+                            <p>Darshan Raval, Arijit Singh, Amir Ameer, and more</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://youtube.com/embed/S9RdEyskGCQ?si=8xfy_t63I2MyAqIq"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/terrX5lNBkU?si=545MNMo88orspAEj"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                      <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/HscrSwilshM?si=Tpt9VlmX8T623-jT"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/Vw6utYElVFg?si=C7P7H3uehznoTaw1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="375" height="250"
+                            src="https://www.youtube.com/embed/GG2q368Mr9g?si=IMr15pJs38FPIW5N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/fkhdRKmc9-I?si=9V9iaL4h34TITBYP"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://youtube.com/embed/G_ZpIa-uXL4?si=JnP85WsZnJRlQEYJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/HscrSwilshM?si=Tpt9VlmX8T623-jT"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="400" height="250"
+                            src="https://www.youtube.com/embed/Vw6utYElVFg?si=C7P7H3uehznoTaw1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="375" height="250"
+                            src="https://www.youtube.com/embed/GG2q368Mr9g?si=IMr15pJs38FPIW5N"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/fkhdRKmc9-I?si=9V9iaL4h34TITBYP"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25rem">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/OMBEtL6-mnU?si=2H7Y5dNfVB_Ui3sO"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up
+                                the bulk of the card's content .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row2 -->
+
+                <!-- row2 -->
+            </div>
+        </div>
+        <!-- main section end-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
